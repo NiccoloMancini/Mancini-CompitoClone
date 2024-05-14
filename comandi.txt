@@ -1,0 +1,30 @@
+   50  git checkout newFeature-Navbar 
+   51  git checkout master 
+   52  git branch 
+   53  git add .
+   54  git commit -m "change navbar2"
+   55  git checkout master 
+   56  git merge newFeature-Navbar 
+   57  git add .
+   58  git commit -m "conflitto in corso"
+   59  git branch
+   60  git push origin master
+   61  git clone https://github.com/sena-meucci/progettoStampa.git
+   62  cd progettoStampa
+   63  git add *
+   64  git commit -m "inserito nome"
+   65  git config user.name
+   66  git clone https://github.com/sena-meucci/progettoStampa.git
+   67  cd progettoStampa
+   68  git config user.name "Niccolo Mancini"
+   69  git config user.email "niccolomancini3@gmail.com"
+   70  git add *
+   71  git commit -m "inserito nome"
+   72  git checkout -b BugFix
+   73  git add *
+   74  git commit -m "errore risolto in stampa"
+   75  git checkout master 
+   76  git merge BugFix 
+   77  git branch -d BugFix 
+   78  git branch
+   79  history 30 > comandi.txt
